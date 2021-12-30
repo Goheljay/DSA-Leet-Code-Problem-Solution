@@ -1,4 +1,4 @@
-package com.jay.leetCode.easy;
+package com.jay.leetCode.easy.Arrays;
 
 public class Sqrtfun {
     public static void main(String[] args) {
