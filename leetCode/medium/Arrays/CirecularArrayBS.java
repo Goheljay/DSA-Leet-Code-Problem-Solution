@@ -1,4 +1,4 @@
-package com.jay.leetCode.medium;
+package com.jay.leetCode.medium.Arrays;
 
 public class CirecularArrayBS {
 	public static void main(String[] args) {

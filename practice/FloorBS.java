@@ -9,5 +9,7 @@ public class FloorBS {
 //			step 1: find target in array
 //			step 2: find all number smaller then target
 //			step 3:which of the gartest number
-	
+
+	//ar[] = {1,3,5,6} target= 4
+	//ans is 1
 }

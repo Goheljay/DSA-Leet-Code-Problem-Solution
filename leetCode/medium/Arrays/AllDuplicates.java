@@ -1,15 +1,15 @@
-package com.jay.leetCode.medium;
+package com.jay.leetCode.medium.Arrays;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
-//Cycle Element
-public class DuplicateElement {
+//Cycle Sort
+public class AllDuplicates {
     public static void main(String[] args) {
-        int arr []= {1,3,4,2,2};
-        System.out.println(findDuplicat(arr));
 
     }
-    static int findDuplicat(int arr[]){
+
+    static List<Integer> findAllDuplicat(int arr[]){
         for (int i=0; i< arr.length; i++){
 
             if (arr[i] != i+1){
@@ -17,11 +17,19 @@ public class DuplicateElement {
                 if (arr[i] != arr[correct]){
                     swap(arr, i, correct);
                 }else {
-                    return arr[i];
+                    i++;
                 }
+
             }
         }
-        return -1;
+
+        List<Integer> ans = new ArrayList<>();
+        for (int index = 0; index<arr.length; index++){
+            if (arr[index] != index+1){
+                ans.add(arr[index]);
+            }
+        }
+    return ans;
     }
     static  void swap(int arr[], int first, int second){
         int tep = arr[first];
@@ -29,4 +37,5 @@ public class DuplicateElement {
         arr[second] = tep;
 
     }
+
 }
