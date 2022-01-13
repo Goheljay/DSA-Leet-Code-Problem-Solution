@@ -1,4 +1,4 @@
-package com.jay.leetCode.hard;
+package com.jay.leetCode.hard.Arrays;
  
 public class MountainArray {
 	public static void main(String[] args) {

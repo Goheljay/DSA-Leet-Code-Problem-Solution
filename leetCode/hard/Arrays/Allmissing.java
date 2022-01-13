@@ -1,4 +1,4 @@
-package com.jay.leetCode.hard;
+package com.jay.leetCode.hard.Arrays;
 
 import com.jay.practice.MinNumber;
 
