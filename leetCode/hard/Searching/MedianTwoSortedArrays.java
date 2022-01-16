@@ -39,20 +39,5 @@ public class MedianTwoSortedArrays {
         else
             return median1;
 
-//        double [] arr = new double[nums1.length + nums2.length];
-//
-//        for (int i = 0; i < nums1.length; i++) {
-//            arr[i] = nums1[i];
-//        }
-//        for (int j = 0;j< nums2.length; j++){
-//            arr[nums1.length] = nums2[j];
-//        }
-//
-//        Arrays.sort(arr);
-//
-//        if (arr.length%2 != 0){
-//            return (double)arr[arr.length / 2];
-//        }
-//        return (double)(arr[(arr.length - 1) / 2] + arr[arr.length / 2]) / 2.0;
     }
 }
