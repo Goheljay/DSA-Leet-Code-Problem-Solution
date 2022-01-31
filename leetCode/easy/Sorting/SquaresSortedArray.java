@@ -1,10 +1,13 @@
 package com.jay.leetCode.easy.Sorting;
 
+import java.util.Arrays;
+
 public class SquaresSortedArray {
     public static void main(String[] args) {
-
+        int [] arr = {5,3,8,1,6,8};
+        System.out.println(Arrays.toString(sortedSquares(arr)));
     }
-    public int[] sortedSquares(int[] A) {
+    public static int[] sortedSquares(int[] A) {
         int[] res = new int[A.length];
         int lo = 0; int hi = A.length - 1;
         for (int i = A.length - 1; i >= 0; i--) {

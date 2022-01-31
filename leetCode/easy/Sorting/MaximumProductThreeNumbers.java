@@ -5,8 +5,11 @@ import java.util.Arrays;
 public class MaximumProductThreeNumbers {
     public static void main(String[] args) {
 
+        int [] arr = {5,3,8,1,6,8};
+        System.out.println(maximumProduct(arr));
+
     }
-    public int maximumProduct(int[] nums) {
+    public static int maximumProduct(int[] nums) {
         Arrays.sort(nums);
 
         int a = nums[nums.length-3]*nums[nums.length-2]*nums[nums.length-1];

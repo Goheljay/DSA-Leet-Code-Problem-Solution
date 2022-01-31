@@ -4,10 +4,12 @@ import java.util.Arrays;
 
 public class ArrayPartiation {
     public static void main(String[] args) {
+        int [] arr = {5,3,8,1,6,8};
+        System.out.println(arrayPairSum(arr));
 
     }
 
-    public int arrayPairSum(int[] nums) {
+    public static int arrayPairSum(int[] nums) {
         // counting sort algorithm
         int max = Arrays.stream(nums).max().getAsInt();
         int min = Arrays.stream(nums).min().getAsInt();
